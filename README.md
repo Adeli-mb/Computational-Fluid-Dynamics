@@ -1,81 +1,47 @@
-# Computational-Fluid-Dynamics
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Name] | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <div class="logo">[Your Name]</div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><button id="theme-toggle">🌙</button></li>
-            </ul>
-        </nav>
-    </header>
+<h1>Computational Fluid Dynamics</h1>
 
-    <section id="about">
-        <div class="about-container">
-            <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
-            <div class="about-text">
-                <h2>Hi, I'm [Your Name]</h2>
-                <p>Aspiring [Your Field] Engineer specializing in **CFD, Mechanical Design, and Aerospace Engineering.** Passionate about innovation and problem-solving.</p>
-                <div class="socials">
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="assets/resume.pdf" download class="btn">Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>A320 CFD Simulation</h3>
-                <p>Optimized A320 tail design to reduce drag and increase lift using CFD analysis.</p>
-            </div>
-            <div class="project-card">
-                <h3>Two-Stroke UAV Engine</h3>
-                <p>Designed a small-scale, two-stroke compression ignition engine for UAV applications.</p>
-            </div>
-        </div>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Computational Fluid Dynamics (CFD)</li>
-            <li>SolidWorks & Fusion 360</li>
-            <li>Finite Element Analysis (FEA)</li>
-            <li>MATLAB & Python</li>
-            <li>Manufacturing Processes</li>
-        </ul>
-    </section>
+<h2>Project Outline</h2>
+Modelled an 320 and ran CFD simulations to optimise tail design for increased lift and reduced drag. 
+<br />
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
 
-    <footer>
-        <p>© 2024 [Your Name] | All Rights Reserved.</p>
-    </footer>
+<h2>How? - Design Changes</h2>
+<ul>
+<li>Switched to a cruciform tail to improve stability and aerodynamics </li>
+<li>CAD optimisation – simplified and scaled down model to reduce computational load when running CFD simulations. The CFD software utilised Navier Stokes equations and mesh sensitivity tests to ensure accuracy.</li>
+<li>100 iterations per simulation were undertaken to allow for mesh convergence , ensuring accuracy </li>
+</ul>
+<br/>
+  <p align="center"> 
+Initial Design >>> CAD tail alteration
+  <p align="center"> 
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/XxcJ4V29/CFD-CAD-model.png" alt="CFD-CAD-model" border="0"></a> >>> <a href="https://imgbb.com/"><img src="https://i.ibb.co/mrYGgM0X/CFD-adjested-CAD-model.png" alt="CFD-adjested-CAD-model" border="0">
+      
+  <br/>
+<br />
+<br />
+<h2>Results</h2>
+    <ul>
+  <li>The cruciform tail design showed 7% increase in lift to drag ratio and a drag reduction of 20% at cruise conditions. There was also increased stability due to the optimised horizontal stabiliser placement.</li>
+  <li>This project demonstrate how tail modifications can significantly impact fuel efficiency and range.</li>
+  <li>Provided a scalable method for further design improvements in commercial aviation.</li>
+</ul>
 
-    <script src="script.js"></script>
-</body>
-</html>
+  <p align="center"> 
+  
+  <p align="center"> 
+Velocity Streamlines & Pressure Contour
+      <br/>
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/tPYfkmpb/CFD-velocity-Streamlines.jpg" alt="CFD-velocity-Streamlines" border="0"> <a href="https://ibb.co/5Wwwq0s4"><img src="https://i.ibb.co/d0xxnTkM/CFD-zoom-in.png" alt="CFD-zoom-in" border="0">
+
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
