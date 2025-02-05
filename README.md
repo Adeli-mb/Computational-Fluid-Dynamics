@@ -1,7 +1,5 @@
 <h1>Computational Fluid Dynamics</h1>
 
-
-
 <h2>Project Outline</h2>
 Modelled an 320 and ran CFD simulations to optimise tail design for increased lift and reduced drag. 
 <br />
